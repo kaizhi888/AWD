@@ -1,0 +1,19 @@
+# Credentials and local connection profiles
+.env
+.env.*
+*.key
+*.pem
+*.conf
+
+# Live target rosters and captured flags
+targets*.txt
+targets*.json
+captured-flags*
+*.flag
+*.flags
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
